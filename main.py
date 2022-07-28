@@ -1,4 +1,4 @@
-#
+# not working right - need to fix something...
 # python script written to solve jindosh riddle
 # TODO: OCR Detection would be cool
 
@@ -47,10 +47,10 @@ print(f"Lady Order: {grills_orders_sorted[1][1]}, {grills_orders_sorted[3][1]}, 
 print(f"Heirloom Order: {heirlooms_orders_sorted[3][1]}, {heirlooms_orders_sorted[0][1]}, {heirlooms_orders_sorted[4][1]}, {heirlooms_orders_sorted[1][1]}, {heirlooms_orders_sorted[2][1]}")
 
 #UNCOMMENT BELOW IF NOT WORKING -  TO UNDERTAND WHY..
-# print(heirlooms_orders_sorted)
-# print(grills_orders_sorted)
-# print(f"Lady Order: {grills_orders_sorted[1]}, {grills_orders_sorted[3]}, {grills_orders_sorted[4]}, {grills_orders_sorted[2]}, {grills_orders_sorted[0]}")
-# print(f"Heirloom Order: {heirlooms_orders_sorted[3]}, {heirlooms_orders_sorted[0]}, {heirlooms_orders_sorted[4]}, {heirlooms_orders_sorted[1]}, {heirlooms_orders_sorted[2]}")
+print(heirlooms_orders_sorted)
+print(grills_orders_sorted)
+print(f"Lady Order: {grills_orders_sorted[1]}, {grills_orders_sorted[3]}, {grills_orders_sorted[4]}, {grills_orders_sorted[2]}, {grills_orders_sorted[0]}")
+print(f"Heirloom Order: {heirlooms_orders_sorted[3]}, {heirlooms_orders_sorted[0]}, {heirlooms_orders_sorted[4]}, {heirlooms_orders_sorted[1]}, {heirlooms_orders_sorted[2]}")
 # END
 
 # this is the order according to multiple sources online and has always worked for me..
